@@ -1,18 +1,34 @@
 .Header{
-    width: 100%;
-    height: 4rem;
+    width: 20%;
+    height: 100%;
     display: grid;
-    grid-template-columns: 8fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
     column-gap: 0.5rem;
     gap: 0.5rem;
-    background-color:black;
+    background-color:rgb(82, 76, 76);
     color:white;
     align-items: center;
     justify-content: center;
+}
+.picture{
+width: 80%;
+height: 12rem;
+border-radius: 50%;
+margin: auto;
+margin-top: 1rem;
+border: 5px grey;
+/* background-color: white; */
+background-size: cover;
+background-image: url('../images/prof.jpeg');
 }
 .name{
     text-align: center;
     font: 1em sans-serif;
     font-size: xx-large;
+}
+.Header ul li {
+    text-decoration: none;
+    list-style: none;
+    margin: 1rem;
 }
